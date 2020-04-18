@@ -3,7 +3,7 @@
 ## Overview
 
 The goal of this project is to analyze the genres, gender and duet trends through the years, as well as visualize the songs that remained for the greater number of weeks in the top 5 Billboard Charts and a comparison between the top 10 songs on Billboard and Spotify from 2017 - July 2019.
-The visualizations created can be seen on Tableau Public through the following [link]().
+The visualizations created can be seen on Tableau Public through the following [link](https://public.tableau.com/profile/ilse2323#!/vizhome/billboard_tableau_project/Story1?publish=yes).
 
 
 ## Data Source and Cleaning
@@ -35,7 +35,7 @@ Note: Some of the genders for top artists were filled manually in order to compl
 
 ## Approach
 
-[Billboard Top Weekly Songs from 1999-2019]()
+[Billboard Top Weekly Songs from 1999-2019](https://public.tableau.com/profile/ilse2323#!/vizhome/billboard_tableau_project/Story1?publish=yes)
 
 *Top Genres*
 
@@ -84,6 +84,16 @@ Duets were analyzed through the years in order to visualize if there was an incr
     - Imagine Dragons, Taylor Swift, matchobx Twenty, and Train have been 3 times in the top 5.
 
 *Billboard vs Spotify*
+
+A comparison was made between the top 10 songs per year from 2017-July 2019 from Billboard Hot 100 and Spotify.
+
+* Billboard's songs were obtained by the number of weeks and being present on the top 10 position.
+* Spotify's songs were obtained from the top streams.
+* The top 10 songs for each year differ greatly but they share some of the Artists.
+* Spotify has most of their top songs containing the same artists.
+* The following assumptions can be derived:
+    - Spotify users tend to stream an artists album rather than a hit song.
+    - Billboard analyzes top songs from different streaming services, concluding that Spotify may not be a top streaming service, or may not have much influence.
 
 detailed explanation of your approach and code for constructing visualizations and organizing them into a Story as well as your results, obstacles encountered, lessons learned, and a link to your completed Tableau workbook.
 
