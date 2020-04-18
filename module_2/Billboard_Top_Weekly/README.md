@@ -2,7 +2,7 @@
 
 ## Overview
 
-The goal of this project is to analyze the genres, gender and duet trends through the years, as well as visualize the songs that remained for the greater number of weeks in the top 5 Billboard Charts and a comparison between the top 10 songs on Billboard and Spotify from 2017 - July 2019.
+The goal of this project is to analyze the trends for top songs throughout two decades from the Billboard Hot 100 Weekly Charts, as well as a comparison between the top 10 songs on Billboard and Spotify from 2017 - July 2019.
 The visualizations created can be seen on Tableau Public through the following [link](https://public.tableau.com/profile/ilse2323#!/vizhome/billboard_tableau_project/Story1?publish=yes).
 
 
@@ -43,10 +43,10 @@ Note: Some of the genders for top artists were filled manually in order to compl
 The top genres through the years were first analyzed in order to visualize the genres through time.
 
 * This was achieved by taking the distinct songs, since a song can appear through various weeks, and choosing does who were on the top 10 (peak positions).
-* It can be seen that Pop, Rap and R&B are the top genres through two decades.
-* There are so many diferent types of genres.
+* It can be seen that Pop, Rap and R&B are the top genres through the two decades.
+* There are so many diferent types of genres (including Memes genre, which are songs related to memes).
 * The top genres for this two decades are visualized through time:
-    - Hip-Hop gained top popularity on 2018
+    - Hip-Hop gained top popularity on 2018 and remained on the top positions of the charts for most of the years.
     - Pop started to loose popularity, but on the top genres per year visualization, different Pop styles are introduced (Dream-Pop, Dance-Pop. From this it can be inferred that Pop still has a high presence, but in different and more specific styles.
     - A clear decrease on R&B popularity can be seen for the last 5 years, but it has still remained on the top positions for two decades.
     - Rap reached its peak on 2007 and started to decrease since then. However, it has still remained on the peak positions for two decades.
@@ -93,10 +93,9 @@ A comparison was made between the top 10 songs per year from 2017-July 2019 from
 * The top 10 songs for each year differ greatly but they share some of the Artists.
 * Spotify has most of their top songs containing the same artists.
 * The following assumptions can be derived:
-    - Spotify users tend to stream an artists album rather than a hit song.
-    - Billboard analyzes top songs from different streaming services, concluding that Spotify may not be a top streaming service, or may not have much influence.
+    - Spotify users tend to stream an artists album rather than just a hit song.
+    - Billboard analyzes top songs from different streaming services, Spotify may not be a top streaming service, or may not have much influence.
 
-detailed explanation of your approach and code for constructing visualizations and organizing them into a Story as well as your results, obstacles encountered, lessons learned, and a link to your completed Tableau workbook.
 
 ## Further Questions
 
@@ -115,6 +114,6 @@ The compelte data could not be uploaded to the repository due to its large capac
 
 - [Kaggle: Data on Songs from Billboard 1999-2019](https://www.kaggle.com/danield2255/data-on-songs-from-billboard-19992019#billboardHot100_1999-2019.csv)
 - [Billboard Hot 100 and Artists](https://docs.google.com/spreadsheets/d/1MfknE837BIQViaMjCnRkUL3ime6BU0htCTv39x9Dbms/edit?usp=sharing)
-- [Spotify](https://github.com/ilse-espino/ironhack-projects/blob/master/module_2/Billboard_Top_Weekly/data/spotifyWeeklyTop200Streams.csv)
+- [Spotify Data](https://github.com/ilse-espino/ironhack-projects/blob/master/module_2/Billboard_Top_Weekly/data/spotifyWeeklyTop200Streams.csv)
 - [Data Cleaning](https://github.com/ilse-espino/ironhack-projects/tree/master/module_2/Billboard_Top_Weekly/your-code)
 
