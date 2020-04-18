@@ -17,14 +17,15 @@ The data was obtained from [Kaggle](https://www.kaggle.com/danield2255/data-on-s
 
 ### Data Cleaning
 
-*Billboard Hot 100*
-    1. The Genre column was equally converted to a list because it contained several genres for one song. After analyzing the data, it was assumed the the first genre listed was the top genre for each song.
-    2. A new column (top_genre) was created containing the first element from the list previously made. This will be considered as the genre of the song. Various songs and their list of genres were analyzed in order to get the conlcusion that the list of genres is sorted by top genre.
-    3. The Artists column was converted into a list separating artists by commas because the original file contained a string separated by a comma when more than one artist performed in the song.
-    4. A new column (main_artist) was created containing the first element from the list previously made. This will be considered as the artist for analysis.
-    5. Since the approach for this project will not cover the lyrics, the Lyrics column was dropped.
+**Billboard Hot 100**
+
+   1. The Genre column was equally converted to a list because it contained several genres for one song. After analyzing the data, it was assumed the the first genre listed was the top genre for each song.
+   2. A new column (top_genre) was created containing the first element from the list previously made. This will be considered as the genre of the song. Various songs and their list of genres were analyzed in order to get the conlcusion that the list of genres is sorted by top genre.
+   3. The Artists column was converted into a list separating artists by commas because the original file contained a string separated by a comma when more than one artist performed in the song.
+   4. A new column (main_artist) was created containing the first element from the list previously made. This will be considered as the artist for analysis.
+   5. Since the approach for this project will not cover the lyrics, the Lyrics column was dropped.
     
-*Merge*
+**Merge**
 
 Billboard Hot 100 and Artists dataframes were merged in order to obtain the gender of the artist.
 
@@ -37,7 +38,7 @@ Note: Some of the genders for top artists were filled manually in order to compl
 
 [Billboard Top Weekly Songs from 1999-2019](https://public.tableau.com/profile/ilse2323#!/vizhome/billboard_tableau_project/Story1?publish=yes)
 
-*Top Genres*
+**Top Genres**
 
 The top genres through the years were first analyzed in order to visualize the genres through time.
 
@@ -52,7 +53,7 @@ The top genres through the years were first analyzed in order to visualize the g
     - Pop-Rock was also one of the top genres through two decades, but Rock was decided to be analyzed instead since is a different style. Rock has been loosing popularity and has not been present on the top 10 the last three years.
 
 
-*Gender*
+**Gender**
 
 Gender was analyzed through the ages for all the songs present each year in order to visualize the gender gap.
 
@@ -62,7 +63,7 @@ Gender was analyzed through the ages for all the songs present each year in orde
 * There is an overall 70-30 male-female representation through two decades.
 * The graph shows that more artists have been introduced to the top weekly, but the gender representation remains the same.
 
-*Duets*
+**Duets**
 
 Duets were analyzed through the years in order to visualize if there was an increase or decrease in them.
 
@@ -71,7 +72,7 @@ Duets were analyzed through the years in order to visualize if there was an incr
 * A clear increase can bee seen through the two decades, having its peak on 2018.
 * Is it possible to infer that if an artist makes a duet with another one it is more likely for them to be on the Billboard Hot 100?
 
-*Top 5 songs per year*
+**Top 5 songs per year**
 
 * A treemap diagram was created to visualize the top songs per year.
 * The songs that remained more weeks on the charts and were on the top 5 are represented.
@@ -83,7 +84,7 @@ Duets were analyzed through the years in order to visualize if there was an incr
     - Imagine Dragons has the most popular song "Radioactive" that was in the top 5 for two years.
     - Imagine Dragons, Taylor Swift, matchobx Twenty, and Train have been 3 times in the top 5.
 
-*Billboard vs Spotify*
+**Billboard vs Spotify**
 
 A comparison was made between the top 10 songs per year from 2017-July 2019 from Billboard Hot 100 and Spotify.
 
@@ -112,8 +113,8 @@ detailed explanation of your approach and code for constructing visualizations a
 
 The compelte data could not be uploaded to the repository due to its large capacity. The link for the Kaggle source and final file on Google Sheets is below.
 
--[Kaggle: Data on Songs from Billboard 1999-2019](https://www.kaggle.com/danield2255/data-on-songs-from-billboard-19992019#billboardHot100_1999-2019.csv)
--[Billboard Hot 100 and Artists](https://docs.google.com/spreadsheets/d/1MfknE837BIQViaMjCnRkUL3ime6BU0htCTv39x9Dbms/edit?usp=sharing)
--[Spotify]()
--[Data Cleaning]()
+- [Kaggle: Data on Songs from Billboard 1999-2019](https://www.kaggle.com/danield2255/data-on-songs-from-billboard-19992019#billboardHot100_1999-2019.csv)
+- [Billboard Hot 100 and Artists](https://docs.google.com/spreadsheets/d/1MfknE837BIQViaMjCnRkUL3ime6BU0htCTv39x9Dbms/edit?usp=sharing)
+- [Spotify](https://github.com/ilse-espino/ironhack-projects/blob/master/module_2/Billboard_Top_Weekly/data/spotifyWeeklyTop200Streams.csv)
+- [Data Cleaning](https://github.com/ilse-espino/ironhack-projects/tree/master/module_2/Billboard_Top_Weekly/your-code)
 
